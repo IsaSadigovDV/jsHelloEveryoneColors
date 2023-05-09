@@ -34,4 +34,4 @@ function startColorChange() {
   setInterval(changeColor, 1000);
 }
 
-window.onload = startColorChange;
+startColorChange(changeColor());
