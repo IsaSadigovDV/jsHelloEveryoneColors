@@ -30,8 +30,4 @@ function changeColor() {
   colorIndex = (colorIndex + 1) % colors.length;
 }
 
-function startColorChange() {
-  setInterval(changeColor, 1000);
-}
-
-startColorChange(changeColor());
+setInterval(changeColor, 1000);
